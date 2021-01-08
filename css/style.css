@@ -1,0 +1,71 @@
+
+.black-textarea textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 0 black;
+}
+.black-textarea.md-form .prefix.active {
+    color: black;
+}
+
+
+.active-black-textarea-2 textarea.md-textarea {
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 0 black;
+}
+.active-black-textarea-2.md-form label.active {
+    color: black;
+}
+.active-black-textarea-2.md-form label {
+    color: black;
+}
+.active-black-textarea-2.md-form .prefix {
+    color: black;
+}
+
+
+/* Required for full background image */
+
+html,
+body,
+header,
+.jarallax {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color:black !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+  }
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+
+#information::before,
+#competences::before,
+#experience::before,
+#projets::before {
+  display: block;
+  content: " ";
+  height: 65px;
+  visibility: hidden;
+}
